@@ -1,0 +1,301 @@
+body{
+    background: hsl(210, 46%, 95%);
+    font-family: Barlow Semi Condensed;
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.container{
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+@media (min-width: 700px){
+    .container{
+        margin-top: 10%;
+}}
+
+.daniel{
+    color:hsl(0, 0%, 100%);
+} 
+
+.name{
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.job{
+    opacity: 0.8;
+    font-size: 13px;
+}
+
+.flex{
+    display:flex; 
+    flex-direction: row;
+}
+
+.direction{
+    padding-left: 15px;
+    padding-top: 18px;
+    font-size: 13px;
+}
+
+.quota{
+    width: 110px;
+    padding-left:  22px;
+    height: 110px;
+}
+
+@media (min-width: 700px){
+    .quota{
+        padding-left:  182px;
+        width: 105px;
+}}
+
+.p{
+    color:hsl(263, 62%, 70%);
+    margin-top: -12px;
+}
+
+.a{
+    background: hsl(263, 55%, 52%);
+}
+
+@media (min-width: 700px){
+    .a{
+        grid-area: 1 / 2 span;       
+}}
+
+.k{
+    border: 3.5px solid hsl(263, 62%, 70%);
+}
+
+.received{
+    position: relative;
+    color:hsl(0, 0%, 100%);
+    margin-top: -29px;
+    width: 85%;
+}
+
+@media (min-width: 700px){
+    .received{
+        width: 95%;
+}}
+
+.up{
+    font-size: 20px;
+}
+
+.par{
+    font-size: 13px;
+    font-weight: 600;
+    width: 81%;
+    padding-bottom: 30px;
+}
+
+.was{
+    color:hsl(263, 62%, 70%); 
+}
+
+@media (min-width: 700px){
+    .was{
+        width: 96%;      
+}}
+
+.jonathan{
+    color: hsl(0, 0%, 81%);
+}
+
+.q{
+    margin-top: -12px;
+    color:hsl(0, 0%, 81%);
+}
+
+.b{
+    background: hsl(217, 19%, 35%);
+}
+
+@media (min-width: 700px){
+    .b{
+        display:grid;
+}}
+
+.l, .m, .o{
+    border: 3.5px solid hsl(0, 0%, 100%); 
+}
+
+.team{
+    color: hsl(0, 0%, 100%);
+    width: 85%;
+}
+
+@media (min-width: 700px){
+    .team{
+        margin-top: 0px;
+}}
+
+.started{
+    color: hsl(0, 0%, 81%);
+    width: 87%;
+}
+
+@media (min-width: 700px){
+    .started{
+        width: 80%;
+        margin-top: 0px;       
+}}
+
+.jeanette{
+    opacity: 0.6;
+}
+
+.r{
+    margin-top: -12px;
+    opacity: 0.6;
+}
+
+.overall{
+    opacity: 0.6;
+    width: 85%;
+}
+
+@media (min-width: 700px){
+    .overall{
+        width: 80%;
+}}
+
+.thank{
+    opacity: 0.6;
+}
+
+.c, .e{
+    background: hsl(0, 0%, 100%);
+}
+
+@media (min-width: 700px){
+    .c{
+        display:grid;     
+}}
+
+.patrick{
+    color: hsl(0, 0%, 81%);
+}
+
+.s{
+    margin-top: -12px;
+    color: hsl(0, 0%, 81%);
+}
+
+.d{
+    background: hsl(219, 29%, 14%); 
+}
+
+@media (min-width: 700px){
+    .d{
+        display:grid;
+        grid-column: 2 span; 
+}}
+
+.n{
+    border: 3.5px solid hsl(263, 69%, 54%);
+}
+
+.awesome{
+    color: hsl(0, 0%, 100%);
+    width: 85%;
+}
+
+@media (min-width: 700px){
+    .awesome{
+        width: 95%;
+}}
+
+.staff{
+    color: hsl(0, 0%, 81%);
+    width: 86%;
+}
+
+@media (min-width: 700px){
+    .staff{
+        width: 93%;
+}}
+
+.kira{
+   opacity: 0.8;
+   font-weight: 600;
+}
+
+.t{
+    margin-top: -12px;
+    opacity: 0.6;
+}
+
+@media (min-width: 700px){
+    .e{
+        display:grid;
+        grid-area: 1 / 4 / 4 / 4;
+        height: 580px;
+}}
+
+.such{
+    opacity: 0.8;
+    font-weight: 600;
+}
+
+@media (min-width: 700px){
+    .such{
+        height: 55px; 
+        margin-top: -40px;
+}}
+
+.before{
+    opacity: 0.6;
+    font-weight: 600;
+    width: 90%;
+}
+
+@media (min-width: 700px){
+    .before{
+        width: 80%;
+        padding-bottom: 0px;
+        margin-top: -20px;
+}}
+
+.grid{
+    border-radius: 10px;
+    padding-left: 30px;
+}
+
+@media (min-width: 700px){
+    .border{
+        display:grid;
+        width: 1080px;
+        height:560px;
+        grid-template-columns: 260px 250px 260px 250px;
+        grid-template-rows: 280px 280px; 
+        grid-gap: 20px 20px; 
+        margin-left: 60px;
+}}
+
+.photo{
+    margin-top: 30px;
+    border-radius: 90px;
+    width: 30px;
+    height: 30px;
+}
+
+.attribution{
+    width: 50%;
+    font-size: 13px;
+    text-align: center;
+    padding-left: 25%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+@media (min-width: 700px){
+    .attribution{
+        margin-top: 2%;
+        height: 100px;
+}}
